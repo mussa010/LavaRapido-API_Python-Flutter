@@ -1,0 +1,28 @@
+name: lava_rapido_final
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  device_preview: ^1.2.0
+  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  flutter_masked_text2: ^0.9.1
+  http: ^1.2.2
+  intl: ^0.19.0
+  localization: ^2.1.1
+  mask: ^1.0.5
+  syncfusion_flutter_datagrid: ^27.2.3
+  tuple: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
